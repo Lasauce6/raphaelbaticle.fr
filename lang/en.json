@@ -1,8 +1,8 @@
 {
-    "title": "Nuxt 3 App",
-    "subtitle": "Template",
-    "hello": "Hello",
-    "social": {
-        "twitter": "Twitter in english"
-    }
+  "title": "Raphaël Baticle",
+  "subtitle": "Web developer in Freelance and student in IT",
+  "hello": "Hello",
+  "home": "Home",
+  "about": "About",
+  "blog": "Blog"
 }

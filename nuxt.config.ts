@@ -1,4 +1,4 @@
-const siteTitle = 'Nuxt 3 PWA Template'
+const siteTitle = 'Raphaël Baticle'
 
 /*
  * Nuxt 3 Config File
@@ -16,10 +16,17 @@ export default defineNuxtConfig({
    * TODO: Add tags for social media sharing
    * TODO: Migrate apple-touch-icon config to manifest.json
    */
+  devtools: {
+   enabled: true,
+
+   timeline: {
+    enabled: true
+   }
+  },
   app: {
     head: {
       title: siteTitle, // App window nav title
-      
+
       meta: [
         { charset: 'utf-8' },
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -52,7 +59,7 @@ export default defineNuxtConfig({
       '~/components/library'
     ],
   },
-  
+
   /**
    * * Tailwind CSS Config
    * Options: https://tailwindcss.nuxt.dev/getting-started/options/
@@ -71,16 +78,16 @@ export default defineNuxtConfig({
    * Official module: https://nuxt.com/modules/i18n
    */
   i18n: {
-    defaultLocale: 'en',
+    defaultLocale: 'fr',
     detectBrowserLanguage: false,
     langDir: 'lang/',
     lazy: true,
     locales: [
       {
-        code: 'es',
-        file: 'es.json',
-        iso: 'es-ES',
-        name: 'Español',
+        code: 'fr',
+        file: 'fr.json',
+        iso: 'fr-FR',
+        name: 'Francais',
       },
       {
         code: 'en',

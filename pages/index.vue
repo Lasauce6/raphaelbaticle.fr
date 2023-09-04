@@ -4,9 +4,6 @@
     <section class="flex max-w-7xl mx-auto p-5 justify-center h-screen items-center">
 
       <div>
-        <span class="flex text-xl md:text-3xl justify-center">
-          Welcome to
-        </span>
         <h1 class="flex text-4xl md:text-7xl font-sfbold justify-center">
           {{ $t('title') }}
         </h1>

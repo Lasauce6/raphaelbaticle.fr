@@ -6,3 +6,14 @@ node_modules
 .output
 .env
 dist
+
+# Logs
+logs
+*.log
+
+# Misc
+.DS_Store
+
+# Local env files
+.env.*
+!.env.example
