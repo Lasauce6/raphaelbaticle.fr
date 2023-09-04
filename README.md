@@ -1,13 +1,23 @@
 
-<img src="public/images/banner-gh.png" />
+<div align="center">
+    <br>
+    <br>
+    <p align="center"><a href="#" target="_blank"><img src="public/logo.png" width="100" alt="Logo Joie et Gym"></a></p>
+    <h1 align="center">
+        🚀 Raphaelbaticle.fr
+    </h1>
+    <br>
+    <br>
+</div>
 
-# Nuxt PWA
 
-[![Generic badge](https://img.shields.io/badge/Nuxt-3.0.0-<COLOR>.svg)](https://shields.io/)
+
+
+
+[![Generic badge](https://img.shields.io/badge/Nuxt-3.6.5-<COLOR>.svg)](https://shields.io/)
 [![Generic badge](https://img.shields.io/badge/Tailwind-6.1.3-38bdf8.svg)](https://shields.io/)
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
-
+My personal website, built with [Nuxt.js](https://nuxtjs.org) and [Tailwind CSS](https://tailwindcss.com).
 
 # Features and Modules
 
