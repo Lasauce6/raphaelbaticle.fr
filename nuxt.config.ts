@@ -12,9 +12,6 @@ export default defineNuxtConfig({
      * head config: https://nuxt.com/docs/api/configuration/nuxt-config#head
      * meta config: https://nuxt.com/docs/getting-started/seo-meta
      * pageTransition config: https://nuxt.com/docs/getting-started/transitions#transitions
-     * TODO: Add more meta tags for SEO
-     * TODO: Add tags for social media sharing
-     * TODO: Migrate apple-touch-icon config to manifest.json
      */
     devtools: {
         enabled: true,
@@ -31,11 +28,22 @@ export default defineNuxtConfig({
                 {charset: 'utf-8'},
                 {name: 'viewport', content: 'width=device-width, initial-scale=1'},
                 {name: 'theme-color', content: '#121212'},
+                {hid: 'description', name: 'description', content: 'Raphaël Baticle - Développeur Web'},
+                {hid: 'og:title', property: 'og:title', content: siteTitle},
+                {hid: 'og:description', property: 'og:description', content: 'Raphaël Baticle - Développeur Web'},
+                {hid: 'og:image', property: 'og:image', content: 'https://raphaelbaticle.fr/logo.png'},
+                {hid: 'og:url', property: 'og:url', content: 'https://raphaelbaticle.fr'},
+                {hid: 'twitter:title', name: 'twitter:title', content: siteTitle},
+                {hid: 'twitter:description', name: 'twitter:description', content: 'Raphaël Baticle - Développeur Web'},
+                {hid: 'twitter:image', name: 'twitter:image', content: 'https://raphaelbaticle.fr/logo.png'},
+                {hid: 'twitter:card', name: 'twitter:card', content: 'summary_card'},
+                {hid: 'lang', name: 'lang', content: 'fr'},
                 // ...
             ],
             link: [
                 {rel: 'manifest', href: 'pwa/manifest.json'},
                 {rel: 'apple-touch-icon', href: 'pwa/icons/apple-touch-icon.png'},
+                {rel: 'icon', type: 'image/png', href: 'pwa/icons/favicon-32x32.png', sizes: '32x32'},
             ],
         },
         pageTransition: {name: 'page', mode: 'out-in'}
@@ -47,7 +55,6 @@ export default defineNuxtConfig({
      */
     modules: [
         'nuxt-icon',
-        '@nuxtjs/i18n',
         '@nuxt/content',
         '@nuxtjs/color-mode',
         '@nuxtjs/tailwindcss',
@@ -74,40 +81,13 @@ export default defineNuxtConfig({
     },
 
     /**
-     * * i18n Config
-     * Official module: https://nuxt.com/modules/i18n
-     */
-    i18n: {
-        defaultLocale: 'fr',
-        detectBrowserLanguage: {
-            useCookie: true,
-            cookieKey: 'i18n_redirected',
-            redirectOn: 'root'
-        },
-        langDir: 'lang/',
-        lazy: true,
-        locales: [
-            {
-                code: 'fr',
-                file: 'fr.json',
-                iso: 'fr-FR',
-                name: 'Francais',
-            },
-            {
-                code: 'en',
-                file: 'en.json',
-                iso: 'en-US',
-                name: 'English',
-            },
-        ]
-    },
-
-    /**
      * * Color mode Config
      * Official module: https://nuxt.com/modules/color-mode
      */
     colorMode: {
         classSuffix: '',
+        preference: 'dark',
+        fallback: 'dark',
     },
 
     /**
