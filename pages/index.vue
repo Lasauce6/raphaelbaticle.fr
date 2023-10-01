@@ -11,7 +11,7 @@
           {{ $t('subtitle') }}
         </h2>
         <div class="flex justify-center">
-          <libraryButtonNuxt value="About" to='/about' class="m-2"/>
+          <libraryButtonNuxt value='about' to='/about' class="m-2"/>
         </div>
       </div>
 
