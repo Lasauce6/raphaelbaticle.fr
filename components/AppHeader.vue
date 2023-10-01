@@ -8,10 +8,8 @@ onMounted(() => {
 });
 
 let isMobileMenuOpen = ref(false);
-
-function toogleMobileMenu() {
-    console.log(isMobileMenuOpen);
-    isMobileMenuOpen.value = !isMobileMenuOpen.value;
+function setMobileMenu(bool) {
+    isMobileMenuOpen.value = bool;
 }
 
 </script>
@@ -26,7 +24,7 @@ function toogleMobileMenu() {
                         class="p-2 ml-1 text-sm text-gray-500 rounded-lg lg:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
                         aria-controls="mobile-menu"
                         aria-expanded="false"
-                        @click="toogleMobileMenu">
+                        @click="setMobileMenu(true)">
                     <span class="sr-only">Open main menu</span>
                     <svg class="w-6 h-6" fill="#FFFFFF" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                         <path fill-rule="evenodd"
@@ -48,15 +46,15 @@ function toogleMobileMenu() {
             </div>
 
             <div class="items-center lg:flex lg:mx-auto order-2">
-                <div :class="{ 'mobile-menu-active backdrop-blur-md': isMobileMenuOpen }"
+                <div :class="{ 'mobile-menu-active backdrop-blur-md bg-black/90': isMobileMenuOpen }"
                      class="hidden justify-between text-center items-center lg:flex" id="mobile-menu">
                     <button data-collapse-close="mobile-menu"
                             type="button"
                             class="absolute top-5 right-5 p-2 ml-1 text-sm text-gray-500 rounded-lg lg:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
                             aria-controls="mobile-menu"
-                            @click="toogleMobileMenu">
+                            @click="setMobileMenu(false)">
                         <span class="sr-only">Open main menu</span>
-                        <svg fill="#FFFFFF" width="20" height="20" version="1.1" id="lni_lni-close"
+                        <svg fill="#FFFFFF" width="20" height="20" id="lni_lni-close"
                              xmlns="http://www.w3.org/2000/svg" x="0px"
                              y="0px" viewBox="0 0 64 64" xml:space="preserve">
                       <path d="M35.2,32L59.6,7.6c0.9-0.9,0.9-2.3,0-3.2c-0.9-0.9-2.3-0.9-3.2,0L32,28.8L7.6,4.4c-0.9-0.9-2.3-0.9-3.2,0
@@ -66,7 +64,7 @@ function toogleMobileMenu() {
                     </button>
                     <ul class="flex flex-col mt-11 lg:flex-row lg:space-x-8 lg:mt-0">
                         <li>
-                            <button data-collapse-close="mobile-menu" aria-controls="mobile-menu" @click="toogleMobileMenu">
+                            <button data-collapse-close="mobile-menu" aria-controls="mobile-menu" @click="setMobileMenu(false)">
                             <NuxtLink :to="localePath('/')"
                                       class="block py-2 p-4 align-middle rounded-lg hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
                                       :class="{'text-4xl m-6 font-bold' : isMobileMenuOpen}">
@@ -75,7 +73,7 @@ function toogleMobileMenu() {
                             </button>
                         </li>
                         <li>
-                            <button data-collapse-close="mobile-menu" aria-controls="mobile-menu" @click="toogleMobileMenu">
+                            <button data-collapse-close="mobile-menu" aria-controls="mobile-menu" @click="setMobileMenu(false)">
                             <NuxtLink :to="localePath('/about')"
                                       class="block py-2 p-4  rounded-lg hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200  dark:hover:bg-gray-700 dark:focus:ring-gray-600"
                                       :class="{'text-4xl m-6 font-bold' : isMobileMenuOpen}">
@@ -84,7 +82,7 @@ function toogleMobileMenu() {
                             </button>
                         </li>
                         <li>
-                            <button data-collapse-close="mobile-menu" aria-controls="mobile-menu" @click="toogleMobileMenu">
+                            <button data-collapse-close="mobile-menu" aria-controls="mobile-menu" @click="setMobileMenu(false)">
                             <NuxtLink :to="localePath('/blog')"
                                       class="block py-2 p-4  rounded-lg hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200  dark:hover:bg-gray-700 dark:focus:ring-gray-600"
                                       :class="{'text-4xl m-6 font-bold' : isMobileMenuOpen}" >
