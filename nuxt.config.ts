@@ -42,8 +42,8 @@ export default defineNuxtConfig({
             ],
             link: [
                 {rel: 'manifest', href: 'pwa/manifest.json'},
-                {rel: 'apple-touch-icon', href: 'pwa/icons/apple-touch-icon.png'},
-                {rel: 'icon', type: 'image/png', href: 'pwa/icons/favicon-32x32.png', sizes: '32x32'},
+                {rel: 'apple-touch-icon', href: 'logo.png'},
+                {rel: 'icon', type: 'image/png', href: 'logo.png', sizes: '32x32'},
             ],
         },
         pageTransition: {name: 'page', mode: 'out-in'}
