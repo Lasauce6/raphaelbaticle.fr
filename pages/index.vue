@@ -251,7 +251,7 @@
                             </ol>
                             <div class="mt-12"><a
                                 class="inline-flex items-center font-medium leading-tight text-slate-200 font-semibold text-slate-200 group"
-                                aria-label="View Full Résumé" href="/CV%20Raphaël%20BATICLE.pdf"><span><span
+                                aria-label="Voir le cv" href="/CV%20Raphaël%20BATICLE.pdf"><span><span
                                 class="border-b border-transparent pb-px transition group-hover:border-green-300 motion-reduce:transition-none">Voir le CV </span><span
                                 class="whitespace-nowrap"><span
                                 class="border-b border-transparent pb-px transition group-hover:border-green-300 motion-reduce:transition-none"></span><svg
