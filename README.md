@@ -15,7 +15,7 @@
 
 
 [![Generic badge](https://img.shields.io/badge/Nuxt-3.8.1-<COLOR>.svg)](https://shields.io/)
-[![Generic badge](https://img.shields.io/badge/Tailwind-6.9.4-38bdf8.svg)](https://shields.io/)
+[![Generic badge](https://img.shields.io/badge/Tailwind-6.10.0-38bdf8.svg)](https://shields.io/)
 
 My personal website, built with [Nuxt.js](https://nuxtjs.org) and [Tailwind CSS](https://tailwindcss.com).
 
