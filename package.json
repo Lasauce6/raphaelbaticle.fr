@@ -19,7 +19,7 @@
   "dependencies": {
     "@nuxtjs/tailwindcss": "^6.10.0",
     "postcss": "^8.4.31",
-    "flowbite": "^2.1.1",
+    "flowbite": "^2.2.0",
     "nuxt-icon": "^0.6.5"
   }
 }
