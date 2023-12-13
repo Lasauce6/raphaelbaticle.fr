@@ -954,10 +954,10 @@
   resolved "https://registry.yarnpkg.com/@fastify/busboy/-/busboy-2.1.0.tgz#0709e9f4cb252351c609c6e6d8d6779a8d25edff"
   integrity sha512-+KpH+QxZU7O4675t3mnkQKcZZg56u+K/Ct2K+N2AZYNVK8kyeo/bI18tI8aPm3tvNNRyTWfj6s5tnGNlcbQRsA==
 
-"@iconify/collections@^1.0.356":
-  version "1.0.362"
-  resolved "https://registry.yarnpkg.com/@iconify/collections/-/collections-1.0.362.tgz#135527c3b9cd26b5f7d267cb348e78cf12c34d7f"
-  integrity sha512-GP5YQJxjxi6LxddohkVIMg2OXgRAnZraNVJxbiopL/KsRvj9cQR65RjKZEjV9n04hiJNWURoUwYdVhI0HIHCRw==
+"@iconify/collections@^1.0.366":
+  version "1.0.369"
+  resolved "https://registry.yarnpkg.com/@iconify/collections/-/collections-1.0.369.tgz#7cf563a7d650244e521ecd83d6af09f896c20017"
+  integrity sha512-FbmREMa7Nt0+iD3OKsztCEWdFnUI79Ch6g4dvgdlq8btNkdglNf+i08QXjXX4QFXpMbeRxpxwTtMPYgHXmEHLQ==
   dependencies:
     "@iconify/types" "*"
 
@@ -1323,10 +1323,19 @@
   resolved "https://registry.npmjs.org/@nuxt/devalue/-/devalue-2.0.2.tgz"
   integrity sha512-GBzP8zOc7CGWyFQS6dv1lQz8VVpz5C2yRszbXufwG/9zhStTIH50EtD87NmWbTMwXDvZLNg8GIpb1UFdH93JCA==
 
-"@nuxt/devtools-kit@1.0.5", "@nuxt/devtools-kit@^1.0.2":
+"@nuxt/devtools-kit@1.0.5":
   version "1.0.5"
   resolved "https://registry.yarnpkg.com/@nuxt/devtools-kit/-/devtools-kit-1.0.5.tgz#71f465585fb452a9e97a2b36888360736dd02987"
   integrity sha512-2SbsYZngD0r6nZCXhEKQ8E6sc10uaYMiN3VicoHj0fZSXNEYjJjLRQ3xD+hbmiqM4dRMGeR06IU6E/Ff0asDcQ==
+  dependencies:
+    "@nuxt/kit" "^3.8.2"
+    "@nuxt/schema" "^3.8.2"
+    execa "^7.2.0"
+
+"@nuxt/devtools-kit@^1.0.4":
+  version "1.0.6"
+  resolved "https://registry.yarnpkg.com/@nuxt/devtools-kit/-/devtools-kit-1.0.6.tgz#e4a96fc20a9bb88fe58a3d775fcc1e317e3438cb"
+  integrity sha512-CUSE++NRTIwvBWbLsPzLZIDMpXr6oyllaWm8tOR3Wgr/04jW31uyWbXjU/fxRuDotQwZfcTe19uunRoCoBnk1Q==
   dependencies:
     "@nuxt/kit" "^3.8.2"
     "@nuxt/schema" "^3.8.2"
@@ -6282,15 +6291,15 @@ nuxi@^3.10.0:
   optionalDependencies:
     fsevents "~2.3.3"
 
-nuxt-icon@^0.6.6:
-  version "0.6.6"
-  resolved "https://registry.yarnpkg.com/nuxt-icon/-/nuxt-icon-0.6.6.tgz#e0033bba4a1a1bab87af37dd09e6266653eb0925"
-  integrity sha512-rTRUIjYVlYAyj6ZPVVwGxyyiINNudhC6r9vF96Ec5ZaLOC6mSdUBnJ3oV6sJgViYrIkDLwbIjviFvRcZzvgu3g==
+nuxt-icon@^0.6.7:
+  version "0.6.7"
+  resolved "https://registry.yarnpkg.com/nuxt-icon/-/nuxt-icon-0.6.7.tgz#48a4896f362f88682d3074d50625ddee8d9c4d03"
+  integrity sha512-0QnQM0yqJCb8PWt+gAn6RiXy1/CHScFuOPbsfIIwHMvyKkea+blj5/unq7F9ZHMkfrHozyCID8ErFPSzwEYLeA==
   dependencies:
-    "@iconify/collections" "^1.0.356"
+    "@iconify/collections" "^1.0.366"
     "@iconify/vue" "^4.1.1"
-    "@nuxt/devtools-kit" "^1.0.2"
-    "@nuxt/kit" "^3.8.1"
+    "@nuxt/devtools-kit" "^1.0.4"
+    "@nuxt/kit" "^3.8.2"
 
 nuxt@3.8.2, nuxt@^3.7.4:
   version "3.8.2"
