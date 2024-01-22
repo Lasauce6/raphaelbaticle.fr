@@ -13,7 +13,7 @@
     "@nuxt/devtools": "^1.0.6",
     "@nuxtjs/color-mode": "^3.3.2",
     "@nuxtjs/i18n": "^8.0.0",
-    "nuxt": "3.8.2",
+    "nuxt": "3.9.3",
     "vitest": "^1.0.4"
   },
   "dependencies": {
