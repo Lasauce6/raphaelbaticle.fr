@@ -14,7 +14,7 @@
     "@nuxtjs/color-mode": "^3.3.2",
     "@nuxtjs/i18n": "^8.0.0",
     "nuxt": "3.8.2",
-    "vitest": "^1.0.4"
+    "vitest": "^1.4.0"
   },
   "dependencies": {
     "@nuxtjs/tailwindcss": "^6.10.1",
