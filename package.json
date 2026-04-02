@@ -1,0 +1,26 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "test": "vitest"
+  },
+  "devDependencies": {
+    "@nuxt/content": "^3.9.0",
+    "@nuxt/devtools": "^3.1.1",
+    "@nuxtjs/color-mode": "^3.3.2",
+    "@nuxtjs/i18n": "^8.0.0",
+    "nuxt": "^4.2.1",
+    "vitest": "^4.0.15"
+  },
+  "dependencies": {
+    "@nuxtjs/tailwindcss": "^6.12.0",
+    "better-sqlite3": "^12.5.0",
+    "flowbite": "^2.2.1",
+    "nuxt-icon": "^0.6.7",
+    "postcss": "^8.4.32"
+  }
+}
