@@ -1,3 +1,5 @@
+import { defineNuxtConfig } from "nuxt/config"
+
 const siteTitle = 'Raphaël Baticle'
 
 /*
@@ -13,6 +15,7 @@ export default defineNuxtConfig({
      * meta config: https://nuxt.com/docs/getting-started/seo-meta
      * pageTransition config: https://nuxt.com/docs/getting-started/transitions#transitions
      */
+    compatibilityDate: '2026-08-02',
     devtools: {
         enabled: true,
 
@@ -54,7 +57,6 @@ export default defineNuxtConfig({
      * Official modules: https://nuxt.com/modules
      */
     modules: [
-        'nuxt-icon',
         '@nuxt/content',
         '@nuxtjs/color-mode',
         '@nuxtjs/tailwindcss',
@@ -101,5 +103,11 @@ export default defineNuxtConfig({
         public: {
             apiBase: '/api'
         }
-    }
+    },
+    content: {
+    experimental: {
+      sqliteConnector: 'native', // Utilise node:sqlite (intégré à Node 24)
+    },
+  },
 })
+

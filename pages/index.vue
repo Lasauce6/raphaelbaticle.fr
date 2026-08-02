@@ -10,7 +10,7 @@
                     Raphaël Baticle
                 </h1>
                 <h2 class="flex text-xl md:text-2xl justify-center m-2">
-                    Développeur Web en freelance et étudiant en informatique
+                    Étudiant en cybersécurité (École 42) | Aspirant Pentester
                 </h2>
             </div>
         </div>
@@ -94,16 +94,22 @@
                         </div>
                         <div>
                             <p class="mb-4">
-                                Étudiant en informatique à <a href="https://www.u-pec.fr/" target="_blank"
+                                Étudiant en informatique à <a href="https://www.42.fr/" target="_blank"
                                                               class="font-bold hover:text-green-400 focus-visible:text-green-400"
-                                                              rel="noreferrer">l'Université Paris Est Créteil</a>,
+                                                              rel="noreferrer">l'École 42</a> à Paris,
                                 je suis passionné par la programmation et la cybersécurité.<br>
                                 Micro-entrepreneur, je suis disponible pour différents projets de développement web et
-                                assistance informatique.
+                                d'administration système.
+                            </p>
+                            <p class="mb-4">
+                                Je pratique la sécurité offensive via des CTF (Root Me, 430 points en web-serveur)
+                                en mobilisant Nmap et Burp Suite. J'ai également effectué un stage en IA générative
+                                (LLM, RAG) chez Spark Archives.
                             </p>
                             <p>
                                 Projet d'avenir ?<br>
-                                J'aimerais devenir pentester et travailler dans la sécurité informatique.
+                                Je recherche un stage de test d'intrusion (pentest) pour me former aux méthodologies
+                                professionnelles et devenir pentester.
                             </p>
                         </div>
                     </section>
@@ -115,6 +121,7 @@
                                 Experience</h2></div>
                         <div>
                             <ol class="group/list">
+                                <!-- Stage IA Spark Archives -->
                                 <li class="mb-12">
                                     <div
                                         class="group relative grid pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-50">
@@ -122,20 +129,71 @@
                                             class="absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-md transition motion-reduce:transition-none lg:-inset-x-6 lg:block lg:group-hover:bg-slate-800/50 lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover:drop-shadow-lg"></div>
                                         <header
                                             class="z-10 mb-2 mt-1 text-xs font-semibold uppercase tracking-wide text-slate-500 sm:col-span-2"
-                                            aria-label="2018 to Present">2021 — Maintenant
+                                            aria-label="2024">Avril — Juin 2024
                                         </header>
                                         <div class="z-10 sm:col-span-6">
                                             <h3 class="font-medium leading-snug text-slate-200">
                                                 <div>
-                                                    <span>Création de site webs · Micro entreprise</span>
+                                                    <span>Stagiaire IA générative · Spark Archives</span>
                                                 </div>
 
                                             </h3>
                                             <p class="mt-2 text-sm leading-normal">
-                                                Création de site webs personalisés pour différentes entreprises ou
-                                                associations.
-                                                Développement du front et back-end, gestion de la base de données,
-                                                hébergement et maintenance.
+                                                Développement d'un chatbot basé sur un LLM et une base de données vectorielle
+                                                pour répondre automatiquement aux questions des utilisateurs à partir de la
+                                                documentation technique. Implémentation d'un pipeline de RAG en Python avec
+                                                Langchain.
+                                            </p>
+                                            <ul class="mt-2 flex flex-wrap" aria-label="Technologies used">
+                                                <li class="mr-1.5 mt-2">
+                                                    <div
+                                                        class="flex items-center rounded-full bg-green-400/10 px-3 py-1 text-xs font-medium leading-5 text-green-300 ">
+                                                        Python
+                                                    </div>
+                                                </li>
+                                                <li class="mr-1.5 mt-2">
+                                                    <div
+                                                        class="flex items-center rounded-full bg-green-400/10 px-3 py-1 text-xs font-medium leading-5 text-green-300 ">
+                                                        Langchain
+                                                    </div>
+                                                </li>
+                                                <li class="mr-1.5 mt-2">
+                                                    <div
+                                                        class="flex items-center rounded-full bg-green-400/10 px-3 py-1 text-xs font-medium leading-5 text-green-300 ">
+                                                        LLM
+                                                    </div>
+                                                </li>
+                                                <li class="mr-1.5 mt-2">
+                                                    <div
+                                                        class="flex items-center rounded-full bg-green-400/10 px-3 py-1 text-xs font-medium leading-5 text-green-300 ">
+                                                        RAG
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
+                                <!-- Création de sites web -->
+                                <li class="mb-12">
+                                    <div
+                                        class="group relative grid pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-50">
+                                        <div
+                                            class="absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-md transition motion-reduce:transition-none lg:-inset-x-6 lg:block lg:group-hover:bg-slate-800/50 lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover:drop-shadow-lg"></div>
+                                        <header
+                                            class="z-10 mb-2 mt-1 text-xs font-semibold uppercase tracking-wide text-slate-500 sm:col-span-2"
+                                            aria-label="2023 to Present">2023 — Maintenant
+                                        </header>
+                                        <div class="z-10 sm:col-span-6">
+                                            <h3 class="font-medium leading-snug text-slate-200">
+                                                <div>
+                                                    <span>Création de sites web · Micro entreprise</span>
+                                                </div>
+
+                                            </h3>
+                                            <p class="mt-2 text-sm leading-normal">
+                                                Conception et déploiement de sites web pour des TPE et associations.
+                                                Développement Full-Stack (Laravel, VueJs, SQL), administration de serveurs
+                                                Linux (accès, certificats SSL, logs) et maintenance.
                                             </p>
                                             <ul class="mt-2 flex flex-wrap" aria-label="Technologies used">
                                                 <li class="mr-1.5 mt-2">
@@ -147,7 +205,7 @@
                                                 <li class="mr-1.5 mt-2">
                                                     <div
                                                         class="flex items-center rounded-full bg-green-400/10 px-3 py-1 text-xs font-medium leading-5 text-green-300 ">
-                                                        PHP
+                                                        VueJs
                                                     </div>
                                                 </li>
                                                 <li class="mr-1.5 mt-2">
@@ -165,13 +223,14 @@
                                                 <li class="mr-1.5 mt-2">
                                                     <div
                                                         class="flex items-center rounded-full bg-green-400/10 px-3 py-1 text-xs font-medium leading-5 text-green-300 ">
-                                                        MySQL
+                                                        SQL
                                                     </div>
                                                 </li>
                                             </ul>
                                         </div>
                                     </div>
                                 </li>
+                                <!-- Maintenance informatique -->
                                 <li class="mb-12">
                                     <div
                                         class="group relative grid pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-50">
@@ -179,18 +238,18 @@
                                             class="absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-md transition motion-reduce:transition-none lg:-inset-x-6 lg:block lg:group-hover:bg-slate-800/50 lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover:drop-shadow-lg"></div>
                                         <header
                                             class="z-10 mb-2 mt-1 text-xs font-semibold uppercase tracking-wide text-slate-500 sm:col-span-2"
-                                            aria-label="July to December 2017">2018 — Maintenant
+                                            aria-label="2018 to Present">2018 — Maintenant
                                         </header>
                                         <div class="z-10 sm:col-span-6">
                                             <h3 class="font-medium leading-snug text-slate-200">
                                                 <div>
-                                                    <span>Maintenance et dépannage informatique · Micro entreprise</span>
+                                                    <span>Maintenance et dépannage informatique · Indépendant</span>
                                                 </div>
                                             </h3>
                                             <p class="mt-2 text-sm leading-normal">
-                                                Résolutions de différents problèmes informatiques, installation de
-                                                logiciels, nettoyage de virus, récupération de données.
-                                                Montage et démontage de PC, installation de composants.
+                                                Diagnostic et résolution de pannes matérielles et logicielles pour des
+                                                particuliers. Montage de PC sur mesure et configuration de réseaux
+                                                domestiques et professionnels (TCP/IP, pare-feu, Wi-Fi).
                                             </p>
 
                                             <ul class="mt-2 flex flex-wrap" aria-label="Technologies used">
@@ -212,10 +271,17 @@
                                                         MacOS
                                                     </div>
                                                 </li>
+                                                <li class="mr-1.5 mt-2">
+                                                    <div
+                                                        class="flex items-center rounded-full bg-green-400/10 px-3 py-1 text-xs font-medium leading-5 text-green-300 ">
+                                                        Réseaux
+                                                    </div>
+                                                </li>
                                             </ul>
                                         </div>
                                     </div>
                                 </li>
+                                <!-- Pratique Offensive Root Me -->
                                 <li class="mb-12">
                                     <div
                                         class="group relative grid pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-50">
@@ -223,16 +289,16 @@
                                             class="absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-md transition motion-reduce:transition-none lg:-inset-x-6 lg:block lg:group-hover:bg-slate-800/50 lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover:drop-shadow-lg"></div>
                                         <header
                                             class="z-10 mb-2 mt-1 text-xs font-semibold uppercase tracking-wide text-slate-500 sm:col-span-2"
-                                            aria-label="2016 to 2017">2016 — 2020
+                                            aria-label="Continuous">En continu
                                         </header>
                                         <div class="z-10 sm:col-span-6">
                                             <h3 class="font-medium leading-snug text-slate-200">
                                                 <div><a
                                                     class="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-green-300 focus-visible:text-green-300  group/link text-base"
-                                                    href="https://capitec-sgdf.org/" target="_blank"
+                                                    href="https://www.root-me.org/Lasauce6?lang=fr#8fa237af99f6582fa69a52f2503e9945" target="_blank"
                                                     rel="noreferrer"
-                                                    aria-label="Captation image et son avec Capitec SGDF"><span
-                                                    class="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block"></span><span>Captation image et son · Capitec SGDF <span
+                                                    aria-label="Pratique offensive Root Me"><span
+                                                    class="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block"></span><span>Pratique offensive · Root Me (CTF) <span
                                                     class="inline-block"><svg xmlns="http://www.w3.org/2000/svg"
                                                                               viewBox="0 0 20 20"
                                                                               fill="currentColor"
@@ -242,16 +308,44 @@
                                                     d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z"
                                                     clip-rule="evenodd"></path></svg></span></span></a></div>
                                             </h3>
-                                            <p class="mt-2 text-sm leading-normal">Captation image et son sur différents
-                                                concerts et évènements dans le cadre des Scouts et Guides de France avec
-                                                l'équipe audiovisuelle des Scouts et Guides de l'Essonne </p>
+                                            <p class="mt-2 text-sm leading-normal">
+                                                Résolution de challenges de sécurité applicative (430 points en web-serveur).
+                                                Exploitation de vulnérabilités de l'OWASP Top 10 (injections SQL, XSS),
+                                                manipulation de trafic HTTP avec Burp Suite et scan de systèmes cibles avec Nmap.
+                                            </p>
+                                            <ul class="mt-2 flex flex-wrap" aria-label="Technologies used">
+                                                <li class="mr-1.5 mt-2">
+                                                    <div
+                                                        class="flex items-center rounded-full bg-green-400/10 px-3 py-1 text-xs font-medium leading-5 text-green-300 ">
+                                                        OWASP Top 10
+                                                    </div>
+                                                </li>
+                                                <li class="mr-1.5 mt-2">
+                                                    <div
+                                                        class="flex items-center rounded-full bg-green-400/10 px-3 py-1 text-xs font-medium leading-5 text-green-300 ">
+                                                        Burp Suite
+                                                    </div>
+                                                </li>
+                                                <li class="mr-1.5 mt-2">
+                                                    <div
+                                                        class="flex items-center rounded-full bg-green-400/10 px-3 py-1 text-xs font-medium leading-5 text-green-300 ">
+                                                        Nmap
+                                                    </div>
+                                                </li>
+                                                <li class="mr-1.5 mt-2">
+                                                    <div
+                                                        class="flex items-center rounded-full bg-green-400/10 px-3 py-1 text-xs font-medium leading-5 text-green-300 ">
+                                                        Sécurité offensive
+                                                    </div>
+                                                </li>
+                                            </ul>
                                         </div>
                                     </div>
                                 </li>
                             </ol>
                             <div class="mt-12"><a
                                 class="inline-flex items-center font-medium leading-tight text-slate-200 font-semibold text-slate-200 group"
-                                aria-label="Voir le cv" href="/CV%20Raphaël%20BATICLE.pdf"><span><span
+                                aria-label="Voir le cv" href="/CV_Raphael_BATICLE.pdf"><span><span
                                 class="border-b border-transparent pb-px transition group-hover:border-green-300 motion-reduce:transition-none">Voir le CV </span><span
                                 class="whitespace-nowrap"><span
                                 class="border-b border-transparent pb-px transition group-hover:border-green-300 motion-reduce:transition-none"></span><svg
@@ -344,8 +438,8 @@
                                         <div class="z-10 sm:order-2 sm:col-span-6">
                                             <h3><a
                                                 class="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-green-300 focus-visible:text-green-300  group/link text-base"
-                                                href="#" target="_blank"
-                                                rel="noreferrer" aria-label="Joie et Gymnastique Website"><span
+                                                href="https://github.com/Lasauce6/JoieEtGym" target="_blank"
+                                                rel="noreferrer" aria-label="Projet Github du site de Joie et Gymnastique"><span
                                                 class="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block"></span><span>JoieEtGym <span
                                                 class="inline-block"><svg xmlns="http://www.w3.org/2000/svg"
                                                                           viewBox="0 0 20 20" fill="currentColor"
@@ -356,6 +450,20 @@
                                                 clip-rule="evenodd"></path></svg></span></span></a></h3>
                                             <p class="mt-2 text-sm leading-normal">Site web pour l'association de
                                                 gymnastique du Val d'Yerres Joie et Gymnastique</p>
+                                          <ul class="mt-2 flex flex-wrap" aria-label="Related links">
+                                                <li class="mr-4"><a
+                                                    class="relative mt-2 inline-flex items-center text-sm font-medium text-slate-300 hover:text-teal-300 focus-visible:text-teal-300"
+                                                    href="https://www.joieetgym-vy.fr/"
+                                                    target="_blank" rel="noreferrer">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"
+                                                         fill="currentColor" class="mr-1 h-3 w-3" aria-hidden="true">
+                                                        <path
+                                                            d="M12.232 4.232a2.5 2.5 0 013.536 3.536l-1.225 1.224a.75.75 0 001.061 1.06l1.224-1.224a4 4 0 00-5.656-5.656l-3 3a4 4 0 00.225 5.865.75.75 0 00.977-1.138 2.5 2.5 0 01-.142-3.667l3-3z"></path>
+                                                        <path
+                                                            d="M11.603 7.963a.75.75 0 00-.977 1.138 2.5 2.5 0 01.142 3.667l-3 3a2.5 2.5 0 01-3.536-3.536l1.225-1.224a.75.75 0 00-1.061-1.06l-1.224 1.224a4 4 0 105.656 5.656l3-3a4 4 0 00-.225-5.865z"></path>
+                                                    </svg>
+                                                    <span>Site de Joie et Gym</span></a></li>
+                                            </ul>
                                             <ul class="mt-2 flex flex-wrap" aria-label="Technologies used:">
                                                 <li class="mr-1.5 mt-2">
                                                     <div
@@ -366,7 +474,7 @@
                                                 <li class="mr-1.5 mt-2">
                                                     <div
                                                         class="flex items-center rounded-full bg-green-400/10 px-3 py-1 text-xs font-medium leading-5 text-green-300 ">
-                                                        Voyager
+                                                        Filament
                                                     </div>
                                                 </li>
                                                 <li class="mr-1.5 mt-2">
@@ -390,31 +498,75 @@
                                              src="https://raw.githubusercontent.com/Lasauce6/JoieEtGym/master/public/assets/images/logo.png">
                                     </div>
                                 </li>
+                                <li class="mb-12">
+                                    <div
+                                        class="group relative grid gap-4 pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-50">
+                                        <div
+                                            class="absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-md transition motion-reduce:transition-none lg:-inset-x-6 lg:block lg:group-hover:bg-slate-800/50 lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover:drop-shadow-lg"></div>
+                                        <div class="z-10 sm:order-2 sm:col-span-6">
+                                            <h3><a
+                                                class="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-green-300 focus-visible:text-green-300  group/link text-base"
+                                                href="https://github.com/Lasauce6/tem-asso" target="_blank"
+                                                rel="noreferrer" aria-label="Projet Github du site de Tous Ensemble en Musique"><span
+                                                class="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block"></span><span>JoieEtGym <span
+                                                class="inline-block"><svg xmlns="http://www.w3.org/2000/svg"
+                                                                          viewBox="0 0 20 20" fill="currentColor"
+                                                                          class="inline-block h-4 w-4 shrink-0 transition-transform group-hover/link:-translate-y-1 group-hover/link:translate-x-1 group-focus-visible/link:-translate-y-1 group-focus-visible/link:translate-x-1 motion-reduce:transition-none ml-1 translate-y-px"
+                                                                          aria-hidden="true"><path
+                                                fill-rule="evenodd"
+                                                d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z"
+                                                clip-rule="evenodd"></path></svg></span></span></a></h3>
+                                            <p class="mt-2 text-sm leading-normal">Site web pour l'association de
+                                                musique du Val d'Yerres Tous Ensemble en Musique</p>
+                                          <ul class="mt-2 flex flex-wrap" aria-label="Related links">
+                                                <li class="mr-4"><a
+                                                    class="relative mt-2 inline-flex items-center text-sm font-medium text-slate-300 hover:text-teal-300 focus-visible:text-teal-300"
+                                                    href="https://www.tem-asso.com/"
+                                                    target="_blank" rel="noreferrer">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"
+                                                         fill="currentColor" class="mr-1 h-3 w-3" aria-hidden="true">
+                                                        <path
+                                                            d="M12.232 4.232a2.5 2.5 0 013.536 3.536l-1.225 1.224a.75.75 0 001.061 1.06l1.224-1.224a4 4 0 00-5.656-5.656l-3 3a4 4 0 00.225 5.865.75.75 0 00.977-1.138 2.5 2.5 0 01-.142-3.667l3-3z"></path>
+                                                        <path
+                                                            d="M11.603 7.963a.75.75 0 00-.977 1.138 2.5 2.5 0 01.142 3.667l-3 3a2.5 2.5 0 01-3.536-3.536l1.225-1.224a.75.75 0 00-1.061-1.06l-1.224 1.224a4 4 0 105.656 5.656l3-3a4 4 0 00-.225-5.865z"></path>
+                                                    </svg>
+                                                    <span>Site de TEM</span></a></li>
+                                            </ul>
+                                            <ul class="mt-2 flex flex-wrap" aria-label="Technologies used:">
+                                                <li class="mr-1.5 mt-2">
+                                                    <div
+                                                        class="flex items-center rounded-full bg-green-400/10 px-3 py-1 text-xs font-medium leading-5 text-green-300 ">
+                                                        Laravel
+                                                    </div>
+                                                </li>
+                                                <li class="mr-1.5 mt-2">
+                                                    <div
+                                                        class="flex items-center rounded-full bg-green-400/10 px-3 py-1 text-xs font-medium leading-5 text-green-300 ">
+                                                        Filament
+                                                    </div>
+                                                </li>
+                                                <li class="mr-1.5 mt-2">
+                                                    <div
+                                                        class="flex items-center rounded-full bg-green-400/10 px-3 py-1 text-xs font-medium leading-5 text-green-300 ">
+                                                        Tailwind CSS
+                                                    </div>
+                                                </li>
+                                                <li class="mr-1.5 mt-2">
+                                                    <div
+                                                        class="flex items-center rounded-full bg-green-400/10 px-3 py-1 text-xs font-medium leading-5 text-green-300 ">
+                                                        SQL
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <img alt="" loading="lazy" width="200" height="48" decoding="async"
+                                             data-nimg="1"
+                                             class="rounded border-2 border-slate-200/10 transition group-hover:border-slate-200/30 sm:order-1 sm:col-span-2 sm:translate-y-1"
+                                             style="color: transparent;"
+                                             src="https://raw.githubusercontent.com/Lasauce6/tem-asso/master/public/asset/images/logo.svg">
+                                    </div>
+                                </li>
                             </ul>
-<!--                            <div class="mt-12">-->
-<!--                                <a class="inline-flex items-center font-medium leading-tight text-slate-200 font-semibold text-slate-200 group"-->
-<!--                                   aria-label="View Full Project Archive" href="/archive">-->
-<!--                                    <span>-->
-<!--                                        <span-->
-<!--                                            class="border-b border-transparent pb-px transition group-hover:border-green-300 motion-reduce:transition-none">Voir tout les </span><span-->
-<!--                                        class="whitespace-nowrap">-->
-<!--                                        <span-->
-<!--                                            class="border-b border-transparent pb-px transition group-hover:border-green-300 motion-reduce:transition-none">projets-->
-<!--                                        </span>-->
-<!--                                        <svg-->
-<!--                                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"-->
-<!--                                            class="ml-1 inline-block h-4 w-4 shrink-0 -translate-y-px transition-transform group-hover:translate-x-2 group-focus-visible:translate-x-2 motion-reduce:transition-none"-->
-<!--                                            aria-hidden="true">-->
-<!--                                            <path fill-rule="evenodd"-->
-<!--                                                  d="M3 10a.75.75 0 01.75-.75h10.638L10.23 5.29a.75.75 0 111.04-1.08l5.5 5.25a.75.75 0 010 1.08l-5.5 5.25a.75.75 0 11-1.04-1.08l4.158-3.96H3.75A.75.75 0 013 10z"-->
-<!--                                                  clip-rule="evenodd">-->
-<!--                                                -->
-<!--                                            </path>-->
-<!--                                        </svg>-->
-<!--                                    </span>-->
-<!--                                    </span>-->
-<!--                                </a>-->
-<!--                            </div>-->
                         </div>
                     </section>
 
