@@ -31,16 +31,16 @@ export default defineNuxtConfig({
                 {charset: 'utf-8'},
                 {name: 'viewport', content: 'width=device-width, initial-scale=1'},
                 {name: 'theme-color', content: '#121212'},
-                {hid: 'description', name: 'description', content: 'Raphaël Baticle - Développeur Web'},
-                {hid: 'og:title', property: 'og:title', content: siteTitle},
-                {hid: 'og:description', property: 'og:description', content: 'Raphaël Baticle - Développeur Web'},
-                {hid: 'og:image', property: 'og:image', content: 'https://raphaelbaticle.fr/logo.png'},
-                {hid: 'og:url', property: 'og:url', content: 'https://raphaelbaticle.fr'},
-                {hid: 'twitter:title', name: 'twitter:title', content: siteTitle},
-                {hid: 'twitter:description', name: 'twitter:description', content: 'Raphaël Baticle - Développeur Web'},
-                {hid: 'twitter:image', name: 'twitter:image', content: 'https://raphaelbaticle.fr/logo.png'},
-                {hid: 'twitter:card', name: 'twitter:card', content: 'summary_card'},
-                {hid: 'lang', name: 'lang', content: 'fr'},
+                {name: 'description', content: 'Raphaël Baticle - Développeur Web'},
+                {property: 'og:title', content: siteTitle},
+                {property: 'og:description', content: 'Raphaël Baticle - Développeur Web'},
+                {property: 'og:image', content: 'https://raphaelbaticle.fr/logo.png'},
+                {property: 'og:url', content: 'https://raphaelbaticle.fr'},
+                {name: 'twitter:title', content: siteTitle},
+                {name: 'twitter:description', content: 'Raphaël Baticle - Développeur Web'},
+                {name: 'twitter:image', content: 'https://raphaelbaticle.fr/logo.png'},
+                {name: 'twitter:card', content: 'summary_card'},
+                {name: 'lang', content: 'fr'},
                 // ...
             ],
             link: [
@@ -78,7 +78,6 @@ export default defineNuxtConfig({
         cssPath: '~/assets/tailwind.css',
         configPath: 'tailwind.config',
         exposeConfig: true, // true to resolve the tailwind config in runtime. https://tailwindcss.nuxt.dev/getting-started/options/#exposeconfig
-        injectPosition: 0,
         viewer: true, // set up the /_tailwind/ route. (Disable in production) https://tailwindcss.nuxt.dev/getting-started/options/#viewer
     },
 
